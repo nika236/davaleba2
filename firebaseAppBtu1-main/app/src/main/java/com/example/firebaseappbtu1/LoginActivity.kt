@@ -62,7 +62,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         forgotPasswordButton.setOnClickListener {
-            startActivity(Intent(this, SignUpActivity::class.java))
+            startActivity(Intent(this, ForgotPasswordActivity::class.java))
             finish()
         }
 
